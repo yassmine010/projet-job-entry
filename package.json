@@ -1,0 +1,20 @@
+{
+  "name": "stage-d-ete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "start-backend": "cd backend && npm start",
+    "start-frontend-candidat": "cd frontend-candidat && npm start",
+    "start-frontend-recreteur": "cd mon-projet && npm start"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "wait-on": "^9.0.1"
+  }
+}
